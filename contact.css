@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+    position: absolute;
+    width: 250px;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    left: 90px;
+    transform: translate(-50%, -50%);
+    margin-left: 30px;
+    padding: 30px 0px;
+    border-radius: 10px;
+}
+
+.logo img {
+    max-width: 45%;
+    height: auto;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#navbar {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+}
+
+#navbar a {
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #021105;
+    border-radius: 50px;
+}
+
+#navbar a:hover {
+    background-color: #62ee7c;
+    border-radius: 50px;
+}
+
+#navbar li {
+    text-decoration: none;
+    list-style: none;
+    margin-right: 10%;
+    margin: 10px;
+}
+
+#navbar ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
+
+.contact {
+    /* padding: 30px; */
+    background-color: #eff5f0;
+    width: 80%;
+    height: 100%;
+    top: 60%;
+    position: absolute;
+    margin-left: 10%;
+    border-radius: 10px;
+    margin-bottom: 20%;
+}
+
+.us h2 {
+    color: #18ed3f;
+    text-align: center;
+    margin-top: 6%;
+    color: black;
+    border-radius: 50px;
+    padding: px;
+}
+
+.location {
+    /* padding: 10%; */
+    background-color: rgb(255, 253, 253);
+    width: 20%;
+    height: 31%;
+    margin-left: 17%;
+    top: 30%;
+    position: absolute;
+}
+
+.location h1 {
+    text-align: center;
+    color: #18ed3f;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.location p {
+    text-align: center;
+}
+
+.location:hover {
+    background-color: #eff7f1;
+    color: #021105;
+    border-radius: 5px;
+}
+
+
+.phone {
+    /* padding: 10%; */
+    background-color: rgb(255, 253, 253);
+    width: 20%;
+    height: 31%;
+    margin-left: 39%;
+    top: 30%;
+    position: absolute;
+}
+
+.phone h1 {
+    text-align: center;
+    color: #18ed3f;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.phone p {
+    text-align: center;
+}
+
+.phone:hover {
+    background-color: #eff7f1;
+    color: #021105;
+    border-radius: 5px;
+}
+
+.email {
+    /* padding: 10%; */
+    background-color: rgb(255, 253, 253);
+    width: 20%;
+    height: 31%;
+    margin-left: 63%;
+    top: 30%;
+    position: absolute;
+}
+
+.email:hover {
+    background-color: #eff7f1;
+    color: #021105;
+    border-radius: 5px;
+}
+
+.email h1 {
+    text-align: center;
+    color: #18ed3f;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.email p {
+    text-align: center;
+}
+
+#contactForm button {
+    position: absolute;
+    background-color: #021105;
+    color: #62ee7c;
+    border-radius: 50px;
+    padding: 3px;
+    top: 83%;
+    left: 47%;
+    padding: 5px;
+}
+
+
+input[type="text"] {
+
+    text-align: center;
+    padding: 5px;
+}
+
+.submit {
+    text-align: center;
+    
+}
+ 
+input{
+    margin: 3px;
+    padding: 4px;
+}
+
+input.placeholder1::-webkit-input-placeholder {
+    text-align: center;
+    
+}
+
+input.placeholder2::-webkit-input-placeholder {
+    text-align: center;
+}
+
+textarea.placeholder3::-webkit-input-placeholder {
+    text-align: center;
+    padding: 50px;
+}
+
+#quotationForm {
+    text-align: center;
+}
+
+
+
+.foot {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    display: flex;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 70%
+}
+
+.foot h1 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.foot ul {
+    text-decoration: none;
+    display: flex;
+    margin: 5px;
+
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+
+}
+
+ul li a:hover {
+    color: white;
+    background-color: #39b54a;
+    border-radius: 50px;
+}
+
+.foot ul {
+    list-style: none;
+    display: inline-block;
+    flex-direction: column;
+}
+
+.about {
+    color: white;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin: 30px;
+    color: white;
+}
+
+.about img {
+    max-width: 10%;
+    height: auto;
+}
+
+.about p {
+    font-family: 'Times New Roman', Times, serif;
+    width: 35%;
+    justify-content: right;
+    font-size: 13px;
+}
+
+.Email a {
+    color: #39b54a;
+    text-decoration: none;
+}
+
+.footer-links {
+    display: flex;
+    margin: 20px;
+    color: #39b54a;
+}
+
+#new-letter {
+    display: block;
+    right: 40px;
+    position: absolute;
+    margin-top: 2%;
+}
+
+#new-letter h1 {
+    color: #39b54a;
+    font-size: 20px;
+}
+
+#new-letter button {
+    background-color: #39b54a;
+    color: #111211;
+    padding: 5px;
+    width: 40%;
+    font-size: 16px;
+    border-radius: 50px;
+    margin-top: 3px;
+    border-style: none;
+}
+
+#new-letter button:hover {
+    background-color: #62ee7c;
+    color: #021105;
+}
+
+/* input {
+    width: 80%;
+    padding: 10px;
+    margin: 3px;
+} */
+
+.resources {
+    color: white;
+    right: 35%;
+    color: #39b54a;
+    position: absolute;
+}
+
+.quick-links {
+    color: white;
+    margin-left: -500px;
+    color: #39b54a;
+}
+
+.services {
+    margin-left: -750px;
+    position: absolute;
+}
+
+.follow-us {
+    background-color: #1e1f1e;
+    color: white;
+    padding: 5px;
+}
+
+.follow-us h1 {
+    font-size: 13px;
+    margin-left: 18%;
+}
+
+.copyright {
+    background-color: #1e1f1e;
+    color: rgb(252, 247, 247);
+    text-align: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+}
+
+.fa-facebook {
+    color: radial-gradient(circle, #1877f2, #1877f2, #39579a);
+    padding: 5px;
+    margin-left: 18%;
+    
+  
+}
+
+.fa-twitter {
+    color: radial-gradient(circle, #1DA1F2, #1DA1F2, #007bb5);
+    padding: 5px;
+   
+   
+}
+
+.fa-instagram {
+    color: linear-gradient(to right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    padding: 5px;
+}
+
+.fa-linkedin {
+    color: blue;
+    padding: 5px;
+}
+
+.fa-youtube {
+    color: red;
+    padding: 5px;
+}
+
